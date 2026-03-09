@@ -1,0 +1,31 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+    <!-- Studio Background -->
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#e0e0e0"/>
+        </radialGradient>
+        <filter id="shadow">
+            <feDropShadow dx="0" dy="20" stdDeviation="15" flood-opacity="0.3"/>
+        </filter>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#bg)"/>
+    
+    <g transform="translate(565.7979856674332, 400)" filter="url(#shadow)">
+        <!-- Car Body Box scaled based on rotation angle -->
+        <rect x="-258.95758280091974" y="-100" width="517.9151656018395" height="150" rx="30" fill="#00205b"/>
+        
+        <!-- Greenhouse / Windows -->
+        <path d="M -129.47879140045987 -100 L -86.31919426697326 -180 L 86.31919426697326 -180 L 129.47879140045987 -100 Z" fill="#111111"/>
+        
+        <!-- Wheels -->
+        <circle cx="-172.6383885339465" cy="50" r="60" fill="#222"/>
+        <circle cx="172.6383885339465" cy="50" r="60" fill="#222"/>
+        <circle cx="-172.6383885339465" cy="50" r="40" fill="#ddd"/>
+        <circle cx="172.6383885339465" cy="50" r="40" fill="#ddd"/>
+    </g>
+
+    <text x="600" y="600" font-family="sans-serif" font-size="24" fill="#666" text-anchor="middle" letter-spacing="2">
+        GHIBLI : BLUE EXTERIOR : FRAME 20/36
+    </text>
+</svg>

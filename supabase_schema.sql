@@ -13,6 +13,8 @@ CREATE TABLE public.models (
     description TEXT,
     base_price NUMERIC(10, 2) NOT NULL DEFAULT 0.00,
     image_url TEXT,
+    model_url TEXT,
+    specs JSONB,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
 

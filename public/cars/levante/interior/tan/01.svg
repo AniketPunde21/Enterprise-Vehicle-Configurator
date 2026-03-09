@@ -1,0 +1,13 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#1a1a1a"/>
+    <!-- Dashboard Mock -->
+    <path d="M 0 400 Q 600 300 1200 400 L 1200 675 L 0 675 Z" fill="#222"/>
+    <!-- Center Console mock -->
+    <rect x="500" y="450" width="200" height="225" fill="#111" rx="10"/>
+    <!-- Steering wheel mock -->
+    <circle cx="300" cy="400" r="120" stroke="#d2b48c" stroke-width="20" fill="none"/>
+    <circle cx="300" cy="400" r="40" fill="#d2b48c"/>
+    <text x="600" y="200" font-family="sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="4" opacity="0.3">
+        LEVANTE : TAN INTERIOR
+    </text>
+</svg>
